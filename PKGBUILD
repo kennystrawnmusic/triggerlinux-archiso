@@ -8,7 +8,6 @@ url="https://github.com/realKennyStrawn93/TriggerLinux"
 license=('GPL')
 depends=('qtcreator')
 source=("git+https://github.com/realKennyStrawn93/TriggerLinux#branch=master")
-cpucores="$(cat /proc/cpuinfo | grep cores | head -n1 | tail -c2)"
 md5sums=('SKIP')
 
 package() {
